@@ -1,0 +1,90 @@
+.register-screen{
+    padding: 120px 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.register-screen-title{
+    font-family: "Lobster Two", cursive;
+    font-size: 84px;
+}
+
+.form-placeholder{
+    padding: 32px 42px;
+    background: rgba(255, 255, 255, 0.64);
+    border-radius: 9px;
+}
+
+.auth-groups{
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-bottom: 9px;
+    background-color: rgba(255, 74, 146, 0.24);
+    color: #000!important;
+}
+
+.auth-groups label{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.auth-groups input{
+    border: none!important;
+    outline: none!important;
+    background: transparent!important;
+    font-size: 18px!important;
+    box-shadow: none!important;
+    padding: 0!important;
+    line-height: 0!important;
+    color: #000!important;
+    font-weight: 300!important;
+    margin-top: 0!important;
+}
+
+.auth-bttn, .auth-bttn:hover, .auth-bttn:active, .auth-bttn:visited, .auth-bttn:focus{
+    outline: none!important;
+    border: none!important;
+    box-shadow: none!important;
+    background: #ff4a92;
+    padding: 8px 54px;
+    border-radius: 42px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Profile Image Button */
+
+.profile-image-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.file-input{
+    display: none!important;
+}
+
+.image-placeholder{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+}
+
+.image-holder{
+    position: absolute;
+    width: 140px;
+    cursor: pointer;
+    border-radius: 100%;
+    height: 140px;
+}
+
+.image-holder-bttn{
+    position: absolute;
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    background: rgba(255, 74, 146, 0.24);
+    cursor: pointer;
+}
