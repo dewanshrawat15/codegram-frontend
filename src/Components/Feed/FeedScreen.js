@@ -3,7 +3,7 @@ import { Redirect } from "react-router-dom";
 
 function FeedScreen(){
 
-    const username = sessionStorage.getItem("username");
+    // const username = sessionStorage.getItem("username");
     const authToken = sessionStorage.getItem("authToken");
 
     if(authToken === null){

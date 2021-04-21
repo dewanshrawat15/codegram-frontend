@@ -64,8 +64,11 @@ function RegisterScreen(){
                 console.log("An error occurred");
             }
         }).then(res => {
-            sessionStorage.setItem("username", res.username);
-            sessionStorage.setItem("authToken", res.authToken);
+            sessionStorage.setItem("username", res.data.username);
+            sessionStorage.setItem("profileImageUrl", res.data.profileImageUrl);
+            sessionStorage.setItem("firstName", res.data.firstName);
+            sessionStorage.setItem("lastName", res.data.lastName);
+            sessionStorage.setItem("authToken", res.data.authToken);
             history.push("/feed");
         })
     }
@@ -113,6 +116,10 @@ function RegisterScreen(){
                             <button onClick={handleSubmit} type="submit" className="btn btn-default auth-bttn">
                                 Sign up
                             </button>
+                            <br /><br /><br />
+                            <p className="helper-text">
+                                Have an account? <a className="signup-link" href="/login">Login</a>
+                            </p>
                         </div>
                     </div>
                 </div>
