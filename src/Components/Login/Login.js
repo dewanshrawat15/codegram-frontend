@@ -37,12 +37,14 @@ function Login(){
                 console.log("An error occurred");
             }
         }).then(res => {
-            sessionStorage.setItem("username", res.data.username);
-            sessionStorage.setItem("profileImageUrl", res.data.profileImageUrl);
-            sessionStorage.setItem("firstName", res.data.firstName);
-            sessionStorage.setItem("lastName", res.data.lastName);
-            sessionStorage.setItem("authToken", res.data.authToken);
-            history.push("/feed");
+            if(res.data){
+                sessionStorage.setItem("username", res.data.username);
+                sessionStorage.setItem("profileImageUrl", res.data.profileImageUrl);
+                sessionStorage.setItem("firstName", res.data.firstName);
+                sessionStorage.setItem("lastName", res.data.lastName);
+                sessionStorage.setItem("authToken", res.data.authToken);
+                history.push("/feed");
+            }
         })
     }
 
