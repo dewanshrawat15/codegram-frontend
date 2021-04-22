@@ -17,6 +17,10 @@ export default function Profile(){
         hist.push("/login");
     }
 
+    const routeToProfile = () => {
+        hist.push("/feed");
+    }
+
     if(authToken === null){
         return <Redirect to="/login" />;
     } else {
@@ -25,7 +29,7 @@ export default function Profile(){
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8">
-                            <h1 className="profile-title">CodeGram</h1>
+                            <h1 onClick={routeToProfile} className="profile-title">CodeGram</h1>
                         </div>
                     </div>
                     <br /><br /><br /><br />

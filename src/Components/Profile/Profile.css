@@ -3,7 +3,8 @@
 }
 
 .profile-title{
-    font-size: 54px;
+    font-size: 42px;
+    cursor: pointer;
     font-family: "Lobster Two", cursive;
 }
 
