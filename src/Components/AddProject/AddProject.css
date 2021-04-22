@@ -1,0 +1,31 @@
+.add-project{
+    padding: 32px 0;
+}
+
+.project-image-holder-bttn{
+    position: absolute;
+    width: 280px;
+    height: 140px;
+    transform: translate(50%, 0);
+    background: rgba(255, 74, 146, 0.24);
+    cursor: pointer;
+}
+
+.project-image-holder{
+    position: absolute;
+    cursor: pointer;
+}
+
+.auth-groups textarea{
+    border: none!important;
+    outline: none!important;
+    background: transparent!important;
+    font-size: 18px!important;
+    box-shadow: none!important;
+    font-family: "Josefin Sans", sans-serif;
+    resize: none;
+    padding: 0!important;
+    color: #000!important;
+    font-weight: 300!important;
+    margin-top: 0!important;
+}

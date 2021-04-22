@@ -10,6 +10,8 @@ import RegisterScreen from "./Components/Register/RegisterScreen";
 import Login from "./Components/Login/Login";
 import FeedScreen from "./Components/Feed/FeedScreen";
 import Profile from "./Components/Profile/Profile";
+import AddProject from "./Components/AddProject/AddProject";
+import ProjectDetail from "./Components/ProjectDetail/ProjectDetail";
 
 class App extends Component{
 
@@ -28,6 +30,12 @@ class App extends Component{
           </Route>
           <Route path="/profile">
             <Profile />
+          </Route>
+          <Route path="/project/new">
+            <AddProject />
+          </Route>
+          <Route path="/project-detail/:id">
+            <ProjectDetail />
           </Route>
           <Route path="/">
             <Home />

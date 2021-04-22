@@ -1,0 +1,20 @@
+.project-details{
+    padding: 36px 0;
+}
+
+.project-title{
+    font-family: "Lobster Two", cursive;
+    font-size: 54px;
+}
+
+.project-date{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.project-details{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}

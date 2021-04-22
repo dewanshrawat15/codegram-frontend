@@ -3,22 +3,22 @@
 }
 
 .profile-title{
-    font-size: 64px;
+    font-size: 54px;
     font-family: "Lobster Two", cursive;
 }
 
 .profile-name{
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 300;
 }
 
 .profile-username{
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 500;
 }
 
 .profile-logout-bttn{
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
     font-weight: 600;
     color: #fff;
